@@ -5,6 +5,7 @@ import Appointment from '../components/Appointment';
 import SpecialServices from '../components/SpecialServices';
 import ComprehensiveService from '../components/ComprehensiveService';
 import AboutDoctor from '../components/AboutDoctor';
+import Testimonial from '../components/Testimonial';
 
 const MainLayout = () => {
     return (
@@ -15,6 +16,7 @@ const MainLayout = () => {
             {/* <Appointment /> */}
             {/* <SpecialServices /> */}
             {/* <ComprehensiveService/> */}
+            <Testimonial />
         </div>
     );
 };
