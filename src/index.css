@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-
+nav ul li a.active{
+  border-bottom: 2px solid #0e6efd;
+}
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -118,3 +120,4 @@
     @apply bg-background text-foreground;
   }
 }
+

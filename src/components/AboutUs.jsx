@@ -1,6 +1,7 @@
 import aboutDoctorImage from '../assets/aboutDoctor.PNG'
 import { FaFileInvoiceDollar } from "react-icons/fa6";
 import { FaCalendarPlus } from "react-icons/fa";
+
 const AboutUs = () => {
     return (
         <div>
@@ -50,6 +51,7 @@ const AboutUs = () => {
                 </div>
                 </div>
             </div>
+            
         </div>
     );
 };

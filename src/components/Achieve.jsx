@@ -8,7 +8,7 @@ const Achieve = () => {
     const listStyle = 'flex place-items-center gap-1'
 
     return (
-        <div className='w-full px-5 lg:px-8 xl:px-[8%] grid md:grid-cols-2 py-24'>
+        <div className='w-full px-5 lg:px-8 xl:px-[8%] grid md:grid-cols-2 mt-24'>
 
             <div>
                 <img src={achieveImage} alt="" />

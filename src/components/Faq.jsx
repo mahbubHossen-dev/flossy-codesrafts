@@ -9,7 +9,7 @@ import faqImage from '../assets/faqImage.PNG'
 
 const Faq = () => {
     return (
-        <div className='w-full px-5 lg:px-8 xl:px-[8%] mt-12'>
+        <div className='w-full px-5 lg:px-8 xl:px-[8%] mt-24'>
             <div>
                 header
             </div>

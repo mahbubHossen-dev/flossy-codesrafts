@@ -12,7 +12,7 @@ const SpecialServices = () => {
     const iconWrapper = 'bg-[#D7EAFE] w-fit rounded-full ';
 
     return (
-        <div className='w-full px-5 lg:px-8 xl:px-[8%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 my-24'>
+        <div className='w-full px-5 lg:px-8 xl:px-[8%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-24'>
             <div style={shadow} className={cardClass}>
                 <div className={iconWrapper}>
                     <GiMedicines className='p-4 text-[80px] text-[#0e6efd] hover:bg-[#0e6efd]' />

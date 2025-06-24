@@ -3,9 +3,6 @@ import { testimonialData } from '../data/testimonialData';
 
 const Testimonial = () => {
 
-    console.log(testimonialData)
-
-
     return (
         <div className='w-full px-5 lg:px-8 xl:px-[8%] grid md:grid-cols-2 lg:grid-cols-3 mt-24 gap-5'>
             {

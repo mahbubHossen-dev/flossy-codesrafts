@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { FaListUl } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { BiLogInCircle } from "react-icons/bi";
@@ -43,14 +43,14 @@ const Navbar = () => {
 
 
     const menuLinks = <>
-        <li><Link to={'/'} onClick={closeMenu} href='#top' className='font-Ovo'>Home</Link></li>
-        <li><Link to={'/blog'} onClick={closeMenu} href='#skills' className='font-Ovo'>Blog</Link></li>
-        <li><Link to={'/contact'} onClick={closeMenu} href='#about' className='font-Ovo'>Contact</Link></li>
+        <li><NavLink to={'/'} onClick={closeMenu} href='#top' className='font-Ovo'>Home</NavLink></li>
+        <li><NavLink to={'/blog'} onClick={closeMenu} href='#skills' className='font-Ovo'>Blog</NavLink></li>
+        <li><NavLink to={'/contact'} onClick={closeMenu} href='#about' className='font-Ovo'>Contact</NavLink></li>
     </>
 
     return (
         <div>
-            <nav className={`w-full sticky px-5 lg:px-8 xl:px-[8%] flex justify-between items-center py-4 z-50 ${isScroll && 'bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-[#11001F] dark:shadow-white/20'}`}>
+            <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] flex justify-between items-center py-4 z-50 ${isScroll && 'bg-white bg-opacity-50 backdrop-blur-lg shadow-sm '}`}>
                 <Link className='text-xl text-black font-medium' to={{ hash: '#top' }}>Flossy</Link>
 
                 <ul className={`hidden md:flex items-center md:gap-6 lg:gap-8 rounded-full py-3 px-12  shadow-sm bg-opacity-50 z-50 ${isScroll || 'bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent'}`}>

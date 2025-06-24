@@ -5,9 +5,9 @@ import team3 from '../assets/team3.PNG'
 const Team = () => {
 
     return (
-        <div className='w-full px-5 lg:px-8 xl:px-[8%] bg-[#0e6efd]'>
+        <div className='w-full px-5 lg:px-8 xl:px-[8%] bg-[#0e6efd] pb-12 mt-24'>
 
-            <div className="py-12 lg:p-24">
+            <div className="lg:p-20">
                 <div className='text-center'>
                     <h1 className='text-3xl lg:w-2/5 mx-auto text-white'>Our Dental Team is Ready to Assist You</h1>
                 </div>
