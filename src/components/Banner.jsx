@@ -1,5 +1,5 @@
 import React from 'react';
-import bannerDoctor from '../assets/banner-doctor.png'
+import bannerDoctor from '../../public/assets/banner-doctor.png'
 import { FiPhoneCall } from "react-icons/fi";
 import { MdMedicalServices } from "react-icons/md";
 

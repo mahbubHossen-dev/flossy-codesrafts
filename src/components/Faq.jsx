@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import faqImage from '../assets/faqImage.PNG'
 
 const Faq = () => {
     return (
@@ -14,13 +15,13 @@ const Faq = () => {
             </div>
 
             <div className='grid md:grid-cols-12 justify-around gap-10'>
-                <div className='col-span-5'>
-                    <img src="/src/assets/faqImage.PNG" className='w-full' alt="" />
+                <div className='md:col-span-5'>
+                    <img src={faqImage} className='w-full' alt="" />
                 </div>
                 <Accordion
                     type="single"
                     collapsible
-                    className="w-full col-span-7"
+                    className="w-full md:col-span-7"
                     defaultValue="item-1"
                 >
                     <AccordionItem value="item-1">

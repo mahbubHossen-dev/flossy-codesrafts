@@ -43,9 +43,9 @@ const Navbar = () => {
 
 
     const menuLinks = <>
-        <li><a onClick={closeMenu} href='#top' className='font-Ovo'>Home</a></li>
-        <li><a onClick={closeMenu} href='#about' className='font-Ovo'>About Us</a></li>
-        <li><a onClick={closeMenu} href='#skills' className='font-Ovo'>Blog</a></li>
+        <li><Link to={'/'} onClick={closeMenu} href='#top' className='font-Ovo'>Home</Link></li>
+        <li><Link to={'/blog'} onClick={closeMenu} href='#skills' className='font-Ovo'>Blog</Link></li>
+        <li><Link to={'/contact'} onClick={closeMenu} href='#about' className='font-Ovo'>Contact</Link></li>
     </>
 
     return (

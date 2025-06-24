@@ -1,5 +1,8 @@
 import React from 'react';
 import { FaCheckCircle } from "react-icons/fa";
+
+import achieveImage from '../assets/achieve.PNG'
+
 const Achieve = () => {
 
     const listStyle = 'flex place-items-center gap-1'
@@ -8,7 +11,7 @@ const Achieve = () => {
         <div className='w-full px-5 lg:px-8 xl:px-[8%] grid md:grid-cols-2 py-24'>
 
             <div>
-                <img src="/src/assets/achieve.PNG" alt="" />
+                <img src={achieveImage} alt="" />
             </div>
 
             <div className='space-y-6 pt-8'>

@@ -1,24 +1,30 @@
 import React from 'react';
-
+import before1 from '/src/assets/before-1.jpg'
+import before2 from '/src/assets/before-2.jpg'
+import before3 from '/src/assets/before-3.jpg'
+import after1 from '/src/assets/after-1.jpg'
+import after2 from '/src/assets/after-2.jpg'
+import after3 from '/src/assets/after-3.jpg'
+3
 const cases = [
   {
     id: 1,
     title: 'Braces Correction',
     
-    beforeImg: '/src/assets/before-1.jpg',
-    afterImg: '/src/assets/after-1.jpg',
+    beforeImg: `${before1}`,
+    afterImg: `${after1}`,
   },
   {
     id: 2,
     title: 'Teeth Whitening',
-    beforeImg: '/src/assets/before-2.jpg',
-    afterImg: '/src/assets/after-2.jpg',
+    beforeImg: `${before2}`,
+    afterImg: `${after2}`,
   },
   {
     id: 3,
     title: 'Dental Implant',
-    beforeImg: '/src/assets/before-3.jpg',
-    afterImg: '/src/assets/after-3.jpg',
+    beforeImg: `${before3}`,
+    afterImg: `${after3}`,
   },
 ];
 
