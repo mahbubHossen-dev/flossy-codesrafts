@@ -24,46 +24,37 @@ const Faq = () => {
                     defaultValue="item-1"
                 >
                     <AccordionItem value="item-1">
-                        <AccordionTrigger>Product Information</AccordionTrigger>
+                        <AccordionTrigger>What foods should I avoid to keep my teeth healthy?</AccordionTrigger>
                         <AccordionContent className="flex flex-col gap-4 text-balance">
                             <p>
-                                Our flagship product combines cutting-edge technology with sleek
-                                design. Built with premium materials, it offers unparalleled
-                                performance and reliability.
-                            </p>
-                            <p>
-                                Key features include advanced processing capabilities, and an
-                                intuitive user interface designed for both beginners and experts.
+                                Sticky candies, sugary drinks, and acidic foods like soda and citrus can erode enamel and cause cavities. Try to limit these and brush soon after consuming them.
                             </p>
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-2">
-                        <AccordionTrigger>Shipping Details</AccordionTrigger>
+                        <AccordionTrigger>How often should I visit the dentist?</AccordionTrigger>
                         <AccordionContent className="flex flex-col gap-4 text-balance">
                             <p>
-                                We offer worldwide shipping through trusted courier partners.
-                                Standard delivery takes 3-5 business days, while express shipping
-                                ensures delivery within 1-2 business days.
-                            </p>
-                            <p>
-                                All orders are carefully packaged and fully insured. Track your
-                                shipment in real-time through our dedicated tracking portal.
+                                It’s recommended to visit your dentist every 6 months for a check-up and cleaning, even if you’re not experiencing any issues.
                             </p>
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3">
-                        <AccordionTrigger>Return Policy</AccordionTrigger>
+                        <AccordionTrigger>Are electric toothbrushes better than manual ones?</AccordionTrigger>
                         <AccordionContent className="flex flex-col gap-4 text-balance">
                             <p>
-                                We stand behind our products with a comprehensive 30-day return
-                                policy. If you&apos;re not completely satisfied, simply return the
-                                item in its original condition.
+                                Yes. Grinding can wear down enamel, cause tooth sensitivity, and lead to jaw pain. If you grind your teeth, talk to your dentist about using a night guard.
                             </p>
+                            
+                        </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="item-4">
+                        <AccordionTrigger>Is teeth grinding bruxism harmful?</AccordionTrigger>
+                        <AccordionContent className="flex flex-col gap-4 text-balance">
                             <p>
-                                Our hassle-free return process includes free return shipping and
-                                full refunds processed within 48 hours of receiving the returned
-                                item.
+                                Yes. Grinding can wear down enamel, cause tooth sensitivity, and lead to jaw pain. If you grind your teeth, talk to your dentist about using a night guard.
                             </p>
+                            
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>

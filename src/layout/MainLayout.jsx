@@ -10,6 +10,7 @@ import ClinicLocations from '../components/ClinicLocations';
 import BeforeAfterGallery from '../components/BeforeAfterGallery';
 import Team from '../components/Team';
 import Faq from '@/components/Faq';
+import Achieve from '@/components/Achieve';
 
 const MainLayout = () => {
     return (
@@ -22,6 +23,7 @@ const MainLayout = () => {
             {/* <ComprehensiveService/> */}
             <BeforeAfterGallery />
             <Team />
+            <Achieve />
             <Testimonial />
             <Faq />
             <ClinicLocations />
