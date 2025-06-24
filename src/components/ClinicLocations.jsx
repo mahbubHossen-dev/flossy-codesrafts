@@ -1,26 +1,8 @@
 import React from 'react';
 import { FiMapPin } from 'react-icons/fi';
+import { clinics } from '../data/testimonialData';
 
-const clinics = [
-  {
-    id: 1,
-    branch: "Banani Branch",
-    time: "Sun – Thu, 10AM – 5PM",
-    address: "House 12, Road 5, Banani, Dhaka"
-  },
-  {
-    id: 2,
-    branch: "Uttara Branch",
-    time: "Sat – Wed, 9AM – 4PM",
-    address: "Sector 11, Road 3, Uttara, Dhaka"
-  },
-  {
-    id: 3,
-    branch: "Dhanmondi Branch",
-    time: "Sun – Thu, 11AM – 6PM",
-    address: "Road 7A, Dhanmondi 27, Dhaka"
-  }
-];
+
 
 
 const ClinicLocations = () => {
