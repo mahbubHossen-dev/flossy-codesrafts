@@ -9,6 +9,7 @@ import Testimonial from '../components/Testimonial';
 import ClinicLocations from '../components/ClinicLocations';
 import BeforeAfterGallery from '../components/BeforeAfterGallery';
 import Team from '../components/Team';
+import Faq from '@/components/Faq';
 
 const MainLayout = () => {
     return (
@@ -22,6 +23,7 @@ const MainLayout = () => {
             <BeforeAfterGallery />
             <Team />
             <Testimonial />
+            <Faq />
             <ClinicLocations />
         </div>
     );
