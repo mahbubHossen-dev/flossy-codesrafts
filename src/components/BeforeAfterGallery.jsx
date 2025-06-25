@@ -5,7 +5,9 @@ import before3 from '/src/assets/before-3.jpg'
 import after1 from '/src/assets/after-1.jpg'
 import after2 from '/src/assets/after-2.jpg'
 import after3 from '/src/assets/after-3.jpg'
-3
+import HeaderSection from '@/shared/HeaderSection';
+import Marquee from "react-fast-marquee";
+
 const cases = [
   {
     id: 1,
@@ -31,12 +33,10 @@ const cases = [
 const BeforeAfterGallery = () => {
   return (
     <section className="mt-24 px-6 md:px-16 bg-white">
-      <h2 className="text-3xl font-bold text-center mb-10">Before & After Gallery</h2>
-
+      <HeaderSection header={'Before & After Gallery'} description={"See the transformation of our patients' smiles through real before and after treatment photos."}/>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {cases.map((item) => (
-          <div key={item.id} className="space-y-4">
-            <h3 className="text-xl font-semibold text-center text-gray-800">{item.title}</h3>
+          <Marquee  key={item.id} className="space-y-4 flex flex-col">
             <div className="flex gap-4 justify-center">
               <div className="text-center">
                 <img
@@ -55,7 +55,7 @@ const BeforeAfterGallery = () => {
                 <p className="mt-2 text-sm text-gray-600">After</p>
               </div>
             </div>
-          </div>
+          </Marquee>
         ))}
       </div>
     </section>

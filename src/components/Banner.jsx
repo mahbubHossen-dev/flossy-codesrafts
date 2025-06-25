@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import bannerDoctor from '../../public/assets/banner-doctor.png'
 import { FiPhoneCall } from "react-icons/fi";
 import { MdMedicalServices } from "react-icons/md";
-
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Banner = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: false,
+        });
+    }, []);
 
     return (
         <div className=' w-full px-5 lg:px-8 xl:px-[8%] flex flex-col-reverse md:flex-row justify-around gap-10 pt-28'>
-            <div className='flex justify-center items-center '>
+            <div data-aos="fade-right" className='flex justify-center items-center '>
                 <div className='space-y-2.5'>
                     <h1 className='text-4xl font-medium'>
                         Creating Beautiful Smiles <br />With <span className='text-[#0E82FD]'>Expert Care</span>
@@ -28,7 +35,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div data-aos="fade-left">
                 <img src={bannerDoctor} alt="" />
             </div>
         </div>

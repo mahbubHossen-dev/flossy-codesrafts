@@ -51,7 +51,7 @@ const Navbar = () => {
     return (
         <div>
             <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] flex justify-between items-center py-4 z-50 ${isScroll && 'bg-white bg-opacity-50 backdrop-blur-lg shadow-sm '}`}>
-                <Link className='text-xl text-black font-medium' to={{ hash: '#top' }}>Bright Smile</Link>
+                <Link className='text-2xl text-[#003366] font-medium' to={{ hash: '#top' }}>Bright Smile</Link>
 
                 <ul className={`hidden md:flex items-center md:gap-6 lg:gap-8 rounded-full py-3 px-12  shadow-sm bg-opacity-50 z-50 ${isScroll || 'bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent'}`}>
                     {menuLinks}

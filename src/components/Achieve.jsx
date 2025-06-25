@@ -1,20 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaCheckCircle } from "react-icons/fa";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import achieveImage from '../assets/achieve.PNG'
 
 const Achieve = () => {
-
+    useEffect(() => {
+        AOS.init({
+            duration:1500,
+            once: false,
+        });
+    }, []);
     const listStyle = 'flex place-items-center gap-1'
 
     return (
         <div className='w-full px-5 lg:px-8 xl:px-[8%] grid md:grid-cols-2 mt-24'>
 
-            <div>
+            <div data-aos="zoom-in">
                 <img src={achieveImage} alt="" />
             </div>
 
-            <div className='space-y-6 pt-8'>
+            <div data-aos="flip-left" className='space-y-6 pt-8'>
                 <h1 className='text-4xl font-bold w-2/3'>
                     Achieve a Confident Smile With Us
                 </h1>

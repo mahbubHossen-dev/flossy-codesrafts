@@ -11,7 +11,7 @@ const Team = () => {
                 <div className='text-center'>
                     <h1 className='text-3xl lg:w-2/5 mx-auto text-white'>Our Dental Team is Ready to Assist You</h1>
                 </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-10 gap-6">
+                <div className="grid md:grid-cols-2 lg:grid-cols-10 gap-6 pt-4">
                     <div className='lg:col-span-3 text-center text-white md:h-[320px]'>
                         <img src={team1} className='w-full h-80 object-cover rounded-md' alt="" />
                         <h4 className='text-xl font-medium pt-4'>
