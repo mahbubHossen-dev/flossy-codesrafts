@@ -7,8 +7,8 @@ import { MdMedicalServices } from "react-icons/md";
 const Banner = () => {
 
     return (
-        <div className='w-full px-5 lg:px-8 xl:px-[8%] flex flex-col-reverse md:flex-row justify-around gap-10 pt-28'>
-            <div className='flex justify-center items-center'>
+        <div className=' w-full px-5 lg:px-8 xl:px-[8%] flex flex-col-reverse md:flex-row justify-around gap-10 pt-28'>
+            <div className='flex justify-center items-center '>
                 <div className='space-y-2.5'>
                     <h1 className='text-4xl font-medium'>
                         Creating Beautiful Smiles <br />With <span className='text-[#0E82FD]'>Expert Care</span>

@@ -15,7 +15,7 @@ const Home = () => {
         <div>
             <Banner />
             <AboutUs />
-            <StatsSection />
+            {/* <StatsSection /> */}
             {/* <Appointment /> */}
             <SpecialServices />
             {/* <ComprehensiveService/> */}

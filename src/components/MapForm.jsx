@@ -35,13 +35,7 @@ const MapForm = () => {
             <div>
                 <div value="map">
                     <div className="w-full">
-                        {/* <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5575.326226871111!2d90.40063828790029!3d23.8142266908631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c6e16536e371%3A0xf1da9493f88d8f6a!2sCombined%20Military%20Hospital%20(CMH)!5e0!3m2!1sen!2sbd!4v1742117886958!5m2!1sen!2sbd"
-                            allowFullScreen=""
-                            loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                            className="w-full h-full min-h-[360px] rounded-md"
-                        /> */}
+                        
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2419049097!2d90.39106047533559!3d23.738751578678283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8c001d799a3%3A0x1fc742cf3feaf104!2sPG%20Hospital%2C%20Shahbagh%20Rd%2C%20Dhaka%201000!5e0!3m2!1sen!2sbd!4v1750842342392!5m2!1sen!2sbd"
                             allowFullScreen=""
                             loading="lazy"
